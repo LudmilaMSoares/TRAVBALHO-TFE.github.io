@@ -1,0 +1,63 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #9ccc9a;
+    margin: 20px;
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+   
+}
+.lesson {
+    background-color:  #d5e4d1;
+    padding: 15px;
+    margin: 10px;
+    width: 500px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(3 68 5 / 82%);
+}
+
+.lesson h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #012108;
+}
+.lesson p {
+    line-height: 1.5;
+    color: #000000;
+}
+.lesson input[type="checkbox"] {
+    margin-right: 10px;
+}
+.lesson button {
+    padding: 5px;
+    margin: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+	background-color: #4DA768;
+	color: #fff;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+input[type="text"] {
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 0px 5px #ccc;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+
+	padding: 0px;
+}
